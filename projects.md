@@ -3,7 +3,6 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-# Delete this message
 Not everything that I am currently working on or have worked on is listed here.
 
 ## PyMake
