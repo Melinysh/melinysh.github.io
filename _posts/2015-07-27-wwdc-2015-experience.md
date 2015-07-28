@@ -45,7 +45,7 @@ I thought the card deck was a beautiful, playful UI, but it had a problem. With 
 StackOverflow pointed me in the right direction, but created a new visual problem.
 
 ```Swift
-card.layer.drawsAsynchronously = true
+card.layer.drawsAsynchronously = true  
 card.layer.shadowPath = UIBezierPath(roundedRect: card.bounds, cornerRadius: card.layer.cornerRadius).CGPath
 ```
 
