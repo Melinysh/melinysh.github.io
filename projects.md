@@ -6,7 +6,7 @@ permalink: /projects/
 Not everything that I am currently working on or have worked on is listed here.
 
 ## PyMake
-### April 2015 - Present
+### April 2015 - August 2015
 PyMake is a Makefile generator written in Python. It currently works with C & C++ files. PyMake solves the annoyance that I experienced regularly when experimenting with small C++ projects. I found it tedious to have to write a Makefile and to hard code the configuration and compiler flags for each project. From there, PyMake was born. PyMake uses variables to allow for easy reconfiguration at the command line and support for `make install`, `make uninstall`, and `make clean`. You can view the source and download PyMake from its [GitHub repository](https://github.com/Melinysh/PyMake) or you can run `pip install PyMake`!
 
 ## WWDC 2015 Student Scholarship App
@@ -16,7 +16,7 @@ This is my winning application for [Apple's 2015 WWDC Student Scholarship](https
 
 ## Sweatervest.club 
 ### Jan 2015 - June 2015
-Sweatervest.club was a website created by a friend and I for a final project in my Chemistry class. The website had three main components: a chemistry specific calculator, links to Khan Academy videos, and PDFs of important class handouts. My friend wrote the calculator in Flash while I handled the rest of the website. Sweatervest.club had more than 3,600 page views, with most of them from Russia... We ran the website for one semester of the school term and was often recommended to other students by the Chemistry teacher. Of course, you see it for yourself on my [GitHub Page](https://github.com/Melinysh/Sweatervest.club).
+Sweatervest.club was a website created by a friend and I for a final project in my Chemistry class. The website had three main components: a chemistry specific calculator, links to Khan Academy videos, and PDFs of important class handouts. My friend wrote the calculator in Flash while I handled the rest of the website. Sweatervest.club had more than 3,600 page views, with most of them from Russia... We ran the website for one semester of the school term and was often recommended to other students by the Chemistry teacher. Of course, you see it for yourself on my [GitHub page](https://github.com/Melinysh/Sweatervest.club).
 
 ## Rez Reader 
 ### June 2014 - May 2015
