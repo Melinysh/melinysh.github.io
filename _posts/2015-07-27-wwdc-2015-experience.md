@@ -146,7 +146,7 @@ Wednesday continued on with labs and sessions. Some of the session I watched wer
 
 {% include image.html img="bash-2015.png" caption="A snippet from a panorama I took from the student area on top of the Meteron" %}
 
-All the students were gathered together again atop the Meteron with Apple engineers and executives. Since I was 18, I was allowed to attend the actually Bash party down in the Gardens, but chose to stay in the student area as some great networking opportunities are presented. One person I talked to was Dave Delong, Frameworks Evangelist for Apple. He told me that the most valuable, yet under appreciated thing announced at WWDC was [GameplayKit](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/GameplayKit_Guide/). He made the point that when developers who don't make games hear "Gameplay", they immediately dismiss its usefulness, but they don't realize that there are numerous things in GameplayKit, such as state machines, that could be incredibly useful outside of games. I made a note to myself to check it out at later that night. 
+All the students were gathered together again atop the Meteron with Apple engineers and executives. Since I was 18, I was allowed to attend the actual Bash party down in the Gardens, but chose to stay in the student area as some great networking opportunities are presented. One person I talked to was Dave Delong, Frameworks Evangelist for Apple. He told me that the most valuable, yet under appreciated thing announced at WWDC was [GameplayKit](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/GameplayKit_Guide/). He made the point that when developers who don't make games hear "Gameplay", they immediately dismiss its usefulness, but they don't realize that there are numerous things in GameplayKit, such as state machines, that could be incredibly useful outside of games. I made a note to myself to check it out at later that night. 
 
 ### Friday
 
@@ -162,7 +162,7 @@ With the evening to myself and an early flight the next morning, I took another 
 {% include image.html img="coast.png" %}
 
 ### Saturday
-I woke up at 3:30 to make sure I'd arrive timely at SFO for my 7:00 flight. The five hour flight gave me the chance to catch up on some sessions that I had downloaded the night before and to start playing around with GameplayKit. I didn't make it home until 9:00 that night, exhausted. 
+I woke up at 3:30am to make sure I'd arrive timely at SFO for my 7:00 flight. The five hour flight gave me the chance to catch up on some sessions that I had downloaded the night before and to start playing around with GameplayKit. I didn't make it home until 9:00 that night, exhausted. 
 
 
 ## Looking Back
@@ -177,7 +177,7 @@ The value of the conference cannot be overstated. I met so many brilliant and ta
 - Get your friends to test your app and get their feedback
 - Take a look at the [GitHub page](https://github.com/wwdc/2015) of past WWDC app submissions
 
-There are two points I want to make really clear. The first: use new technologies. If you don't take advantage of newer tech, especially autolayout, the more outdated your app will seem. This doesn't mean you have to have a Watch app, extensions, insane UI dynamics, tons of integration with Kits, but be sensible about following development trends. Secondly, make sure your app runs nicely on both iPad and iPhone. There are so many universal apps on the App Store that it is something we should expect from all apps. I was told by an Apple executive who judged some of the applications that an app that didn't use autolayout and/or didn't support both iPad and iPhone was basically disregarded. You need to put the effort in. 
+There are two points I want to make really clear. The first is use new technologies. If you don't take advantage of newer tech, especially autolayout, the more outdated your app will seem. This doesn't mean you have to have a Watch app, extensions, insane UI dynamics, tons of integration with Kits, but be sensible about following development trends. Secondly, make sure your app runs nicely on both iPad and iPhone. There are so many universal apps on the App Store that it is something we should expect from all apps. I was told by an Apple executive who judged some of the applications that an app that didn't use autolayout and/or didn't support both iPad and iPhone was basically disregarded. You need to put the effort in. 
 
 ### Tips for scholarship winners
 - Congrats! Don't tire yourself out in the first few days
