@@ -5,6 +5,10 @@ permalink: /projects/
 ---
 Not everything that I am currently working on or have worked on is listed here.
 
+## MarketMesh
+### August 2015
+MarketMesh is an iOS app for local marketplaces built upon a peer-to-peer mesh network. It allows for an individual to list physical objects or services for sale and displays it to nearby peers. One such service that is built-in to the app is a wireless proxy service. The proxy service allows a device's data connection to be shared and rented through the peer-to-peer network to another device. This app was created at the [Tech Retreat Hackathon](http://techretreat.ca) by Alex Tomala, David Tsenter, Jonathan Galperin and myself. In the 9 hours we had to implement this idea, we built a working prototype that also included the proxy service. MarketMesh won 1st place for its technical difficulty, creativity, and usefulness. 
+
 ## PyMake
 ### April 2015 - August 2015
 PyMake is a Makefile generator written in Python. It currently works with C & C++ files. PyMake solves the annoyance that I experienced regularly when experimenting with small C++ projects. I found it tedious to have to write a Makefile and to hard code the configuration and compiler flags for each project. From there, PyMake was born. PyMake uses variables to allow for easy reconfiguration at the command line and support for `make install`, `make uninstall`, and `make clean`. You can view the source and download PyMake from its [GitHub repository](https://github.com/Melinysh/PyMake).
