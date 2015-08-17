@@ -14,5 +14,10 @@ github_username: melinysh
 markdown: redcarpet
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 
+# Gems to include
+gems:
+      - jekyll-redirect-from
+
+
 redcarpet:
   extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
