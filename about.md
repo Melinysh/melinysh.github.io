@@ -12,5 +12,5 @@ My programming experience is heavily focused on Swift & Objective-C, but I also 
 
 You can find me on [Twitter](https://twitter.com/Melinysh), [Facebook](https://www.facebook.com/stephen.melinyshyn), [GitHub](https://github.com/Melinysh) and [LinkedIn](https://www.linkedin.com/profile/view?id=430765821&trk=hp-identity-name). If you'd like to contact me directly, email me at stephen.melinyshyn@gmail.com. 
 
-This is hosted by [GitHub Pages](https://pages.github.com) using [Jekyll](http://jekyllrb.com) and a modified version of the [Polar Bear](https://github.com/diezcami/polar-bear-theme/) theme.
+This is hosted by [GitHub Pages](https://pages.github.com) using [Jekyll](http://jekyllrb.com) with a modified version of the [Polar Bear](https://github.com/diezcami/polar-bear-theme/) theme.
 
