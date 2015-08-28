@@ -11,7 +11,7 @@ MarketMesh is an iOS app for local marketplaces built upon a peer-to-peer mesh n
 
 ## PyMake
 ### April 2015 - August 2015
-PyMake is a Makefile generator written in Python. It currently works with C & C++ files. PyMake solves the annoyance that I experienced regularly when experimenting with small C++ projects. I found it tedious to have to write a Makefile and to hard code the configuration and compiler flags for each project. From there, PyMake was born. PyMake uses variables to allow for easy reconfiguration at the command line and support for `make install`, `make uninstall`, and `make clean`. You can view the source and download PyMake from its [GitHub repository](https://github.com/Melinysh/PyMake).
+PyMake is a Makefile generator written in Python. It currently works with C, C++, Go and Fortran projects. When experimenting with small C++ projects, I found it tedious to write a Makefile and to hard code the configuration and compiler flags for each project. PyMake was created to remedy this. PyMake uses variables to allow for easy reconfiguration at the command line and has support for `make install`, `make uninstall`, and `make clean`. You can view the source and download PyMake from its [GitHub repository](https://github.com/Melinysh/PyMake).
 
 ## WWDC 2015 Student Scholarship App
 ### April 2015
