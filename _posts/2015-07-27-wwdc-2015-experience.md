@@ -129,33 +129,43 @@ Lining up at 4:00am for a 10:00am keynote may sound crazy, but some students I t
 
 I had terrific seats, two rows behind the VIP section. When the keynote finished, the usual mass exodus occurred, but instead of leaving with the rest of the crowd, a group of students and I made our way to the front stage where Tim Cook and Eddy Cue were taking group pictures with students. What you can't really tell from watching the keynote is that there is a 1 meter wide, 1 meter deep gap between the stage and the presentation screen. I only noticed when I almost fell off the stage into it.
 
-I was disappointed to see that the incredibly fun [Stump The Experts](https://en.wikipedia.org/wiki/Stump_the_Experts) event seemed to be discontinued this year. 
+I was disappointed to see that the incredibly fun [Stump the Experts](https://en.wikipedia.org/wiki/Stump_the_Experts) event seemed to be discontinued this year.
+
+{% include image.html img="wwdc-2015-banner.png" %}
 
 ### Tuesday
 The first day of labs and sessions! I spent my morning converting my projects to Swift 2, attending the [What's New in Swift](https://developer.apple.com/videos/wwdc/2015/?id=106) session. The Swift labs ran all day, everyday of the conference and were a huge help for me. The first floor Ethernet connection's speed reached 900 Mbit/s and absolutely blew my mind.
 
+{% include image.html img="wwdc-1st-floor.jpg" caption="Coming up from the first floor of Moscone West" %}
+
+
 Tuesday night I went out with some other students to LinkedIn's WWDC Happy Hour at their San Francisco offices, just down the street from Moscone West. I was surprised that I had to sign a nondisclosure agreement just to get in! Most of the other nightly events outside of the conference were fully booked. Some smart students RSVP'd for most of the events well in advance and had plans every night of the week, something I think I should have done.
 
-{% include image.html img="wwdc-2015-banner.png" %}
+
 
 ### Wednesday
 Wednesday continued on with labs and sessions. Some of the session I watched were [Achieving All-day Batter Life](https://developer.apple.com/videos/wwdc/2015/?id=707), [Introducing Search APIs](https://developer.apple.com/videos/wwdc/2015/?id=709), and one of the best sessions of the week, [Protocol-Oriented Programming in Swift](https://developer.apple.com/videos/wwdc/2015/?id=408). The first Core Data Lab was that afternoon and as I expected, the line up was long. I was seated at a round table, enqueued with 4 other developers waiting for a Core Data engineer. The Core Data engineer was patient and very intelligent. She urged me to see the Core Data session that was taking place the next day that would answer some of my questions. Also that day, WWDC attendees found out that the band [Walk The Moon](http://www.walkthemoonband.com) would be playing at the annual Bash in Yerba Buena Gardens. 
 
+{% include image.html img="wwdc-watching-lounge.jpg" caption="Comfy lounges were setup on the first floor for watching the current Presidio session" %}
+
 ### Thursday
 [Optimizing Swift Performance](https://developer.apple.com/videos/wwdc/2015/?id=409), and [Continuous Integration and Code Coverage in Xcode](https://developer.apple.com/videos/wwdc/2015/?id=410) kicked off the day. Thursday consisted mostly of labs, but of course I caught the [What's New In Core Data](https://developer.apple.com/videos/wwdc/2015/?id=220) session. The Core Data engineer was right, it did answer questions, but gave me some more so I returned to the ever-helpful labs. 
 
+{% include image.html img="wwdc-2nd-floor.jpg" caption="Looking down from the stairs onto the second floor" %}
+
+That night at the Bash, all the students were gathered together again atop the Meteron with Apple engineers and executives. Since I was 18, I was allowed to attend the actual Bash party down in the Gardens, but chose to stay in the student area as some great networking opportunities are presented. One person I talked to was Dave Delong, Frameworks Evangelist for Apple. He told me that the most valuable, yet under appreciated thing announced at WWDC was [GameplayKit](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/GameplayKit_Guide/). He made the point that when developers who don't make games hear "Gameplay", they immediately dismiss its usefulness, but they don't realize that there are numerous things in GameplayKit, such as state machines, that could be incredibly useful outside of games. I made a note to myself to check it out at later that night. 
+
 {% include image.html img="bash-2015.png" caption="A snippet from a panorama I took from the student area on top of the Meteron" %}
-
-All the students were gathered together again atop the Meteron with Apple engineers and executives. Since I was 18, I was allowed to attend the actual Bash party down in the Gardens, but chose to stay in the student area as some great networking opportunities are presented. One person I talked to was Dave Delong, Frameworks Evangelist for Apple. He told me that the most valuable, yet under appreciated thing announced at WWDC was [GameplayKit](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/GameplayKit_Guide/). He made the point that when developers who don't make games hear "Gameplay", they immediately dismiss its usefulness, but they don't realize that there are numerous things in GameplayKit, such as state machines, that could be incredibly useful outside of games. I made a note to myself to check it out at later that night. 
-
 ### Friday
 
-{% include image.html img="sausage-party-truck.png" caption="This truck kept circling Moscone as we were in line" %}
+{% include image.html img="sausage-party-truck.png" caption="This truck kept circling Moscone as we were in line Friday morning" %}
 
 
 Friday was the last day and an important one for me. I lined up at 6:30 (doors open at 8:00), so I would be able to get an appointment for the User Interface Design Lab. The UI Design lab is one of two labs that require an appointment. In 2014, I was able to line up at 7:30 for the UI Design lab and be booked for the same time that I did this year. Friday is the quietest day as many people leave before the weekend begins, but labs and sessions were still in full swing. The very first talk of the day was one of my favourites, [Advanced NSOperations](https://developer.apple.com/videos/wwdc/2015/?id=226). The session looked into how the WWDC app was created with NSOperations at its core. It was a terrific session and I learned so much about the flexibility and power that NSOperations have to offer. 
 
 The rest of the day was packed with labs. The UI Design lab, Xcode lab, Swift lab, UIKit and UIKit Dynamics lab, and the GameplayKit lab. Surprisingly, I was only one of two attendees in the GameplayKit lab. I met the team and they were incredibly helpful in not only explaining more about GameplayKit's potential, but also gave me resources to begin exploring machine learning, an area of interest for me. 
+
+{% include image.html img="wwdc-3rd-pano.jpg" caption="Panorama of the 3rd floor" %}
 
 With the evening to myself and an early flight the next morning, I took another cable car back down to Fisherman's Wharf and walked further along the coast. When I was at the end of the pier near Fort Mason, I turned around and took this photo. 
 
@@ -190,5 +200,7 @@ There are two points I want to make really clear. The first is use new technolog
 - Post-WWDC depression is real
 
 I want to touch on the pictures with executives part. Yes, I guess it is cool. They're basically celebrities in the iOS developer world, but is it necessary? For some people, it would be. For me, I don't feel I need a picture. When most students squish in together to try to grab a selfie with Tim Cook, I stand back. It has always been the perfect opportunity for me to have great one-on-one conversations with other Apple executives and engineers.
+
+
 
 I feel incredibly honored to have attended WWDC in both 2014 and 2015 on student scholarships. You can find my WWDC 2015 app submission [here](https://github.com/Melinysh/WWDC-2015-Student-App). Try running it in Xcode if you'd like. I don't think it's perfect, but it's an example of what can be accomplished with hard work, persistence and curiosity.
