@@ -5,6 +5,10 @@ permalink: /projects/
 ---
 Not everything that I am currently working on or have worked on is listed here.
 
+## Meshwork
+### September 2015
+Meshwork is an iOS app that uses Apple's Multipeer Connectivity framework to find people around you and makes it a breeze to add their contact info to your phone. Meshwork also allows you to see if there are people nearby that you know and displays all your peers in a beautiful graph. Meshwork requires no internet connection to function, unlike other contact sharing apps. It was created at [Hack The North](http://hackthenorth.com) by David Tsenter, Jonathan Galaperin, Sam Haves, and myself. Check it out on [GitHub](https://github.com/Melinysh/Meshwork).
+
 ## MarketMesh
 ### August 2015
 MarketMesh is an iOS app for local marketplaces built upon a peer-to-peer mesh network. It allows for an individual to list physical objects or services for sale and displays it to nearby peers. One such service that is built-in to the app is a wireless proxy service. The proxy service allows a device's data connection to be shared and rented through the peer-to-peer network to another device. This app was created at the [Tech Retreat Hackathon](http://techretreat.ca) by Alex Tomala, David Tsenter, Jonathan Galperin and myself. In the 9 hours we had to implement this idea, we built a working prototype that also included the proxy service. MarketMesh won 1st place for its technical difficulty, creativity, and usefulness. 
