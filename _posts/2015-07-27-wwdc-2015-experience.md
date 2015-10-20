@@ -12,7 +12,7 @@ I was extremely excited when I was awarded one of Apple's World Wide Developers 
 ## About The Scholarship
 The [WWDC Student Scholarship](https://developer.apple.com/wwdc/scholarships/) has been a program for many years, but in different forms. I heard from one developer that he attended WWDC 2006 on a scholarship given to him only because WWDC didn't sell out so Apple gave away extra tickets. Another developer told me that he had to write an essay about himself a couple of years ago.
 
-The WWDC Student Scholarship may seem a bit misleading to some because it is not money for school, but rather a paid WWDC conference ticket. These tickets cost $1599 USD and aren't easy to come by. In recent years, as WWDC sold out so quickly, Apple moved to a lottery style system for allowing the purchase of tickets. Winning the scholarship guaranteed that you will have a conference ticket for free. 
+The WWDC Student Scholarship may seem a bit misleading to some because it is not money for school, but rather a paid WWDC ticket. These tickets cost $1599 USD and aren't easy to come by. In recent years, as WWDC sold out so quickly, Apple moved to a lottery style system for allowing the purchase of tickets. Winning the scholarship guaranteed that you will have a conference ticket for free. 
 
 I wanted to apply for the WWDC 2013 scholarship, but I didn't have confidence in programming skills so I passed on it. In 2014, I felt why not at least try? I looked up the [WWDC Scholarship Guidelines and Terms](https://developer.apple.com/wwdc/scholarships/Scholarship-Guidelines-and-Terms.pdf) and started. Over the past two years, the guidelines haven't changed much. They basically outlined the following requirements for the application:
 
