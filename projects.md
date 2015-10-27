@@ -5,6 +5,11 @@ permalink: /projects/
 ---
 Not everything that I am currently working on or have worked on is listed here.
 
+## NearbEYE
+### October 2015
+NearbEYE is an augmented reality app for iOS that helps you explore the city of Waterloo through your smartphone. NearbEYE utilizes open data from the City of Waterloo to provide informative, relevant information instantly. The app shows you information about nearby locations in the direction you are currently looking through a custom algorithm. It won 3rd place at the City of Waterloo's [Codefest Hackathon](http://www.waterloo.ca/en/government/WaterlooCodefest.asp) and was created by Aaron Cotter, Ethan Hardy, and myself. The code for this project can be found [here](https://github.com/Melinysh/NearbEYE).
+
+
 ## Meshwork
 ### September 2015
 Meshwork is an iOS app that uses Apple's Multipeer Connectivity framework to find people around you and makes it a breeze to add their contact info to your phone. Meshwork also allows you to see if there are people nearby that you know and displays all your peers in a beautiful graph. Meshwork requires no internet connection to function, unlike other contact sharing apps. It was created at [Hack The North](http://hackthenorth.com) by David Tsenter, Jonathan Galaperin, Sam Haves, and myself. Check it out on [GitHub](https://github.com/Melinysh/Meshwork).
