@@ -26,6 +26,9 @@ PyMake is a Makefile generator written in Python. It currently works with C, C++
 ### April 2015
 This is my winning application for [Apple's 2015 WWDC Student Scholarship](https://developer.apple.com/wwdc/scholarships/). It is entirely written in Swift, except for one portion that was a small Objective-C game I made in 2014 (before Swift even existed). It is completely written by me; no third party libraries! I had the idea of creating a stacked card interface for awhile, but I was blown away with what I was able to accomplish. You can read about my WWDC experience [here](http://melinysh.me/wwdc,/apple,/swift/2015/07/27/wwdc-2015-experience.html). I have only updated the app to support Swift 2 and iOS 9 so that anyone in the future can launch and explore my app without trouble. The core functionality and content of the app remains the same as the day I submitted it. You can check it out on GitHub [here](https://github.com/Melinysh/WWDC-2015-Student-App).
 
+## Project Clay
+### Jan 2015 - May 2015
+Project Clay is my personal server side service that recreates the removed Twitter [Activity](https://blog.twitter.com/2015/updating-trends-on-mobile) feature by collecting and deriving this same data and more (unfollows, unfavourites). Given your user ID, API keys and correct OAuth tokens, Project Clay will continuously scrape, store, and analyze Twitter data with a Mongo database. Complete data (user profile, user tweets, favourites, followers, and following) is collected for all users up to two degrees away and just user profiles for the third degree. You can read more about the project by seeing the sanitized [snapshot](https://github.com/Melinysh/Project-Clay).
 
 ## Sweatervest.club 
 ### Jan 2015 - June 2015
