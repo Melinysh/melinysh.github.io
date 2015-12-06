@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
    about what I'm working on, and more. These are
    things that are interesting to me and, hopefully, to you.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://melinysh.me" # the base hostname & protocol for your site
+url: "https://melinysh.me" # the base hostname & protocol for your site
 twitter_username: melinysh
 github_username: melinysh
 
@@ -16,7 +16,7 @@ markdown_ext:  markdown,mkdown,mkdn,mkd,md
 
 # Gems to include
 gems:
-      - jekyll-redirect-from
+    - jekyll-redirect-from
 
 
 redcarpet:
