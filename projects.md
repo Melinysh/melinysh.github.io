@@ -5,6 +5,10 @@ permalink: /projects/
 ---
 Not everything that I am currently working on or have worked on is listed here.
 
+## Chkmail
+### January 2016
+Chkmail is a commandline Gmail client written in Go. As I've learned vim over the past year, I've become more accustomed to working in the terminal and I have wanted to move more of my daily workflow there as well. Chkmail allows me to check my email from the comfort of my terminal. I've built on top of Roi Martin's fantastic package, [gocui](https://github.com/jroimartin/gocui), to create a simple and easy-to-use UI. Chkmail is still under development with lots of future features I'd like to implement, given the time to do so. See Chkmail [here](https://github.com/Melinysh/Chkmail).
+
 ## NearbEYE
 ### October 2015
 NearbEYE is an augmented reality app for iOS that helps you explore the city of Waterloo through your smartphone. NearbEYE utilizes open data from the City of Waterloo to provide informative, relevant information instantly. The app shows you information about nearby locations in the direction you are currently looking through a custom algorithm. It won 3rd place at the City of Waterloo's [Codefest Hackathon](http://www.waterloo.ca/en/government/WaterlooCodefest.asp) and was created by [Aaron Cotter](http://aaroncotter.me/), Ethan Hardy, and myself. The code for this project can be found [here](https://github.com/Melinysh/NearbEYE).
@@ -12,7 +16,7 @@ NearbEYE is an augmented reality app for iOS that helps you explore the city of 
 
 ## Meshwork
 ### September 2015
-Meshwork is an iOS app that uses Apple's Multipeer Connectivity framework to find people around you and makes it a breeze to add their contact info to your phone. Meshwork also allows you to see if there are people nearby that you know and displays all your peers in a beautiful graph. Meshwork requires no internet connection to function, unlike other contact sharing apps. It was created at [Hack The North](http://hackthenorth.com) by [David Tsenter](http://www.davidtsenter.com), [Jonathan Galaperin](http://jgalperin.github.io), [Sam Haves](http://shaves.tk), and myself. Check it out on [GitHub](https://github.com/Melinysh/Meshwork).
+Meshwork is an iOS app that uses Apple's Multipeer Connectivity framework to find people around you and makes it a breeze to add their contact info to your phone. Meshwork also allows you to see if there are people nearby that you know and displays all your peers in a beautiful graph. Meshwork requires no internet connection to function, unlike other contact sharing apps. It was created at [Hack The North](http://hackthenorth.com) by [David Tsenter](http://www.davidtsenter.com), [Jonathan Galperin](http://jgalperin.github.io), [Sam Haves](http://shaves.tk), and myself. Check it out on [GitHub](https://github.com/Melinysh/Meshwork).
 
 ## MarketMesh
 ### August 2015
