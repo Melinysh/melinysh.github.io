@@ -56,6 +56,7 @@
             line-height: $base-line-height;
             font-weight: bold;
             letter-spacing: 0.05em;
+			font-family: 'Open Sans';
 
             &:not(:first-child) {
                 margin-left: 20px;
@@ -131,9 +132,11 @@
  * ============================================== */
     .post-header {
         margin-bottom: $spacing-unit;
-    }
+   
+	}
 
     .post-title {
+		font-family: 'Open Sans';
         font-size: 42px;
         letter-spacing: -1px;
         line-height: 1;
@@ -148,6 +151,7 @@
         /*
         h2 {
             font-size: 32px;
+			font-family: 'Open Sans';
 
             @include media-query($on-laptop) {
                 font-size: 28px;
@@ -156,6 +160,7 @@
 
         h3 {
             font-size: 26px;
+			font-family: 'Open Sans';
 
             @include media-query($on-laptop) {
                 font-size: 22px;
@@ -164,6 +169,7 @@
 
         h4 {
             font-size: 20px;
+			font-family: 'Open Sans';
 
             @include media-query($on-laptop) {
                 font-size: 18px;
