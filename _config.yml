@@ -4,7 +4,7 @@ email: stephen.melinyshyn@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
    This is my personal site for my blog, information
    about what I'm working on, and more. These are
-   things that are interesting to me and, hopefully, to you.
+   things that are interesting to me and, possibly, to you.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://melinysh.me" # the base hostname & protocol for your site
 twitter_username: melinysh
