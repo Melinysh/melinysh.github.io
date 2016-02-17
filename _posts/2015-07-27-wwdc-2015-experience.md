@@ -44,21 +44,21 @@ I thought the card deck was a beautiful, playful UI, but it had a problem. With 
 
 StackOverflow pointed me in the right direction, but created a new visual problem.
 
-```Swift
+{% highlight Swift %}
 card.layer.drawsAsynchronously = true  
 card.layer.shadowPath = UIBezierPath(roundedRect: card.bounds, cornerRadius: card.layer.cornerRadius).CGPath
-```
+{% endhighlight %}
 
 {% include image.html img="shadow-card.gif" %}
 
 Looks like the shadow doesn't get redrawn with the card's constraints and things are still a bit slow. Looking around, overriding the card view's layoutSubviews function did the trick.
 
-```Swift
+{% highlight Swift %}
 override func layoutSubviews() {
-		super.layoutSubviews()
-		self.layer.shadowPath = UIBezierPath(roundedRect: self.bounds, cornerRadius: self.layer.cornerRadius).CGPath
+	super.layoutSubviews()
+	self.layer.shadowPath = UIBezierPath(roundedRect: self.bounds, cornerRadius: self.layer.cornerRadius).CGPath
 }
-```
+{% endhighlight %}
 
 {% include image.html img="smooth-cards.gif" %}
 
@@ -67,19 +67,19 @@ After those minor tweaks, the card dragging was silky smooth and all of	the shad
 ### Challenge #2: Autolayout and Animations
 As you can see above, a card on the deck consists of a UIImageView and a UILabel. When the user taps on the card, I had the UILabel fade and wanted the UIImageView to maintain its ratio and scale alongside the card to fill the screen. This challenge was much harder. At first, I tried to animate the card like this:
 
-```Swift
+{% highlight Swift %}
 UIView.animateWithDuration(0.3, animations: { () -> Void in
 	card.label.alpha = 0   
 	card.frame = self.view.frame
-    card.imageView.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.width * (2.0/3.0))
+	card.imageView.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.width * (2.0/3.0))
 	card.layer.shadowOpacity = 0
 }
-```
+{% endhighlight %}
 {% include image.html img="choppy-image.gif" %}
 
 The problem is the UIImageView wouldn't animate until the card had finished animating. This resulted in an odd expansion of the card that felt completely unnatural. I imagine that this is the result of using autolayout and the UIImageView maintaining its constraints during an animation of its superview? I never had the time during development to figure this out entirely. With only a few days left, I had to come up with a bit of a hack for animating the expansion of a card:
 
-```Swift
+{% highlight Swift %}
 // setup a UIImageView to animate instead of the one on the card
 topCardImage = UIImageView(image: UIImage(named: cardInfo.imageName))
 topCardImage.frame = card.imageView.frame
@@ -97,7 +97,7 @@ UIView.animateWithDuration(0.05, animations: { () -> Void in
 			card.layer.shadowOpacity = 0
 		})
 })
-```
+{% endhighlight %}
 
 {% include image.html img="smooth-image.gif" %}
 
