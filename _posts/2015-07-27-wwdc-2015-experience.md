@@ -112,6 +112,7 @@ I submitted the app a day before the deadline. I felt a lot more confident with 
 On May 8th, I received the email above and was ecstatic. Since I was 18, was able to travel and check into a hotel by myself. Some of my best times during my week away occurred even before my flight took off.
 
 ## WWDC Week
+  
 ### Saturday
 On Saturday June 6th, I flew from Toronto to San Francisco. In the gate, I had already met another WWDC scholarship winner and two other attendees. The two other attendees worked for a major Canadian bank and I was seated next to one for the flight. He's a senior executive for the bank's mobile solutions department and this WWDC was his 7th. As we chatted, I mentioned I was going to Waterloo and he told me he has a friend who took the same program as me at the University of Waterloo. He gave me his business card and encouraged me to apply to his bank for [my co-op](https://uwaterloo.ca/software-engineering/future-undergraduate-students/co-op-and-careers). I took my first Uber from SFO to my hotel and it only cost me $0.64 because of a $30 first time discount. I had the rest of the afternoon to myself in San Francisco so I walked around, took a cable car to Fisherman's Wharf and strolled along the coastline.
 
