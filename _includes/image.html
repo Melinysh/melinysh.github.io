@@ -8,6 +8,9 @@
     </a>
     {% endif %}
     {% if include.caption %}
-        <figcaption class="image-caption">{{ include.caption }}</figcaption>
-    {% endif %}
+	<figcaption class="image-caption">{{ include.caption }}</figcaption> 	
+</div>	
+{% else %}
 </div>
+<br>
+{% endif %}
