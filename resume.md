@@ -1,0 +1,9 @@
+---
+title: Resume
+permalink: /resume/
+---
+
+<head>
+<meta http-equiv="refresh" content="0; url={{ site.url }}/assets/resume.pdf">
+<link rel="canonical" href="{{ site.url }}/assets/resume.pdf" />
+</head>
