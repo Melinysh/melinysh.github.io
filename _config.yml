@@ -11,13 +11,16 @@ twitter_username: melinysh
 github_username: melinysh
 
 # Build settings
-markdown: redcarpet
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
+markdown: kramdown
+
+kramdown:
+      input: GFM
+      syntax_highlighter: rouge
 
 # Gems to include
-gems:
-    - jekyll-redirect-from
+#gems:
+#    - jekyll-redirect-from
 
-
-redcarpet:
-  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
+#redcarpet:
+# extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
