@@ -7,13 +7,13 @@ categories: vim, development, commandline
 
 Let's get this out the way. The default vi editor is horrible. I think I first used it on my Raspberry Pi and, like many other people, had no clue what was going on.
 
-{% include image.html img="trapped-vim.tiff" title="Default Vim setup" caption="A memory of my first Vim experience"%}
+{% include image.html img="trapped-vim.png" title="Default Vim setup" caption="A memory of my first Vim experience"%}
 
 It's only after taking the time to experiment and explore the flexibility Vim offers can I believe that it's the best text editor out there. This post is meant to show off some things in my Vim setup that I think can be useful to you. Also, this post assumes you have some understanding of Vim (modes, movement, basic editing). Although [my `vimrc`](https://github.com/melinysh/vimrc) is on Github, I don't recommend copy and pasting all of it. It's too personalized to me, instead read this post first and build up your own. My `vimrc` can be used as an example of how to create a unique `vimrc` for one's needs. 
 
 The default version of Vim that ships on Macs is out of date so I recommend using [Homebrew](http://brew.sh) to `brew install vim` and use that latest version. Some of the plugins below require newer versions of Vim.
 
-## Make Vim Great Again
+# Make Vim Great Again
 I'd seen countless people on the internet praise Vim and show off some pretty terminal screenshots of Vim. How do they do it? It's all in their magical Vim configuration file, `vimrc`, which is usually placed as a hidden file in the home directory (`~/.vimrc`). 
 
 ## The Basics
@@ -43,7 +43,7 @@ set ruler
 set showcmd
 {% endhighlight %}
 
-{% include image.html img="basic-vim.tiff" %}
+{% include image.html img="basic-vim.png" %}
 
 Doing this sets up the basics. Next, an awesome feature of Vim is backups. Make sure you have a `.vim/tmp` and a `.vim/backup` directory setup to make use of Vim backups.
 

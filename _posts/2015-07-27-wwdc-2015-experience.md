@@ -107,7 +107,7 @@ I submitted the app a day before the deadline. I felt a lot more confident with 
 
 ## Acceptance
 
-{% include image.html img="wwdc-2015-email.tiff" %}
+{% include image.html img="wwdc-2015-email.png" %}
 
 On May 8th, I received the email above and was ecstatic. Since I was 18, was able to travel and check into a hotel by myself. Some of my best times during my week away occurred even before my flight took off.
 
