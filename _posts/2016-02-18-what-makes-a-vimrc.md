@@ -5,7 +5,7 @@ date: 2016-02-18
 categories: vim, development, commandline
 ---
 
-Let's get this out the way. The default vi editor is horrible. I think I first used it on my Raspberry Pi and, like many other people, had no clue what was going on.
+Let's get this out of the way. The default vi editor is horrible. I think I first used it on my Raspberry Pi and, like many other people, had no clue what was going on.
 
 {% include image.html img="trapped-vim.png" title="Default Vim setup" caption="A memory of my first Vim experience"%}
 
@@ -221,7 +221,7 @@ The long command is too tedious to type everytime. Mappings to the rescue. Somet
 {% include image.html img="nerdtree.gif" %}
 
 ## Color Schemes
-[VimColors.com](http://vimcolors.com) highlights a wide variety of colorschemes for Vim. Take a look and choose one that fits you. I personally use [Molokai](https://github.com/tomasr/molokai) and like it (it's the scheme in the gif above). Choosing the right color scheme can brighten up your Vim setup and make it more enjoyable to work in.  
+[VimColors.com](http://vimcolors.com) highlights a wide variety of colorschemes for Vim. Take a look and choose one that fits you. I use [Molokai](https://github.com/tomasr/molokai) and like it (it's the scheme in the gif above). Choosing the right color scheme can brighten up your Vim setup and make it more enjoyable to work in.  
 
 ## Vim Jokes  
 Here's a collection of some great Vim jokes I've seen around the Internet.
