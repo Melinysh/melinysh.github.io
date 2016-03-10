@@ -59,13 +59,14 @@ You can set it and forget it and Vim will automatically make backups of the file
 ## Mappings
 Mappings take one Vim command and direct them to another. Some commands, like enabling spell check, can be cumbersome to type out everytime `:setlocal spell spelllang=en_ca` in Vim. 
 
-Its easier to create a kind of shortcut key to activate our own commands in Vim. This key is called the [Leader](http://vi.stackexchange.com/questions/836/what-is-leader). I define my Leader as the Space key.
+It is easier to create a kind of shortcut key to activate our own commands in Vim. This key is called the [Leader](http://vi.stackexchange.com/questions/836/what-is-leader). I define my Leader as the Space key. 
 
 {% highlight viml %}
 let mapleader = "\<Space>"
 {% endhighlight %}
 
-So we can remap the spelling command seen above to a much simpler command using `nnoremap`:
+So we can remap the spelling command seen above to something much simpler using a mapping command. There are a couple different mapping commands and you can read about the differences between them [here](http://stackoverflow.com/questions/3776117/what-is-the-difference-between-the-remap-noremap-nnoremap-and-vnoremap-mapping). I prefer to use `nnoremap` because it keeps my commands restricted to normal mode and non-recursive. 
+
 {% highlight viml %}
 nnoremap <Leader>sp :setlocal spell spelllang=en_ca<CR> 
 au BufRead *.txt,*.md setlocal spell
@@ -117,7 +118,6 @@ To get the nice symbols to appear, a patched font is required called powerline. 
 let g:airline_powerline_fonts = 1
 let g:Powerline_symbols = 'fancy'
 {% endhighlight %}
-
 
 ### [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
 YouCompleteMe is "a fast, as-you-type, fuzzy-search code completion engine for Vim." If you're used to writing code in an IDE, autocomplete is a logical, and sometimes essential feature to boost your productivity. YouCompleteMe currently works with C-family languages, Go, Rust, JavaScript, and Python.
@@ -213,7 +213,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 autocmd StdinReadPre * let s:std_in=1 
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 " Toggle NERDTree on and off
-nnoremap <C-n> :NERDTreeToggle <cr> 
+nnoremap <C-n> :NERDTreeToggle <CR> 
 {% endhighlight %}
 
 The long command is too tedious to type everytime. Mappings to the rescue. Sometime I start Vim, but don't specify the file, so I have NERD Tree start if no file is specified and I can quickly find my way around my file system.
