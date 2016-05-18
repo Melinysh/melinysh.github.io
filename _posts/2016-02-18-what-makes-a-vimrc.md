@@ -26,6 +26,7 @@ filetype plugin on
 
 " Set utf8 as standard encoding 
 set encoding=utf-8
+
 " Use Unix as the standard file type
 set ffs=unix,dos,mac
 
@@ -34,8 +35,13 @@ syntax on
 
 " always show status line
 set laststatus=2
+
 " show line numbers
 set number
+
+" relative line numbers are helpful for hjkl movements
+set relativenumber
+
 " Enable mouse support in console
 set mouse=a
 
