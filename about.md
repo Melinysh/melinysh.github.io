@@ -8,7 +8,7 @@ Hello there! I'm Stephen. I'm a Software Engineering (Class of 2020) student at 
 
 {% include image.html img="me.png" title="Stephen Melinyshyn"	 %}   
 
-My programming experience is focused on Swift & Go, but I also code in Objective-C and Python. Outside of programming I enjoy photography, mountain biking and reading. 
+My programming experience is focused on Swift and Go, but I also code in Objective-C and Python. Outside of programming I enjoy photography, mountain biking and reading.
 
 You can find me on [Twitter](https://twitter.com/Melinysh), [Facebook](https://www.facebook.com/stephen.melinyshyn), [GitHub](https://github.com/Melinysh) and [LinkedIn](https://www.linkedin.com/profile/view?id=430765821&trk=hp-identity-name). 
 
