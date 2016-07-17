@@ -9,6 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://melinysh.me" # the base hostname & protocol for your site
 twitter_username: melinysh
 github_username: melinysh
+author: melinysh
 
 # Build settings
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
@@ -19,8 +20,7 @@ kramdown:
       syntax_highlighter: rouge
 
 # Gems to include
-#gems:
-#    - jekyll-redirect-from
-
+gems:
+      - jekyll-seo-tag
 #redcarpet:
 # extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
