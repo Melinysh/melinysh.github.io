@@ -107,6 +107,8 @@ It 8:00 was when things started to get interesting. A few Apple employees were p
 
 {% include image.html img="keynote-2016-seating.png" caption="A snippet of a panorama I took from my seat, 6th row!" %}
 
+{% include image.html img="wwdc-2016-me-keynote.png" caption="I even made it into the keynote video, around an hour and 24 minutes in!" %}
+
 I thought the keynote was great and after lunch returned to the auditorium for the Platform State of the Union. There was no priority seating for students, but I think my seat in the balcony had great photography benefits.
 
  
