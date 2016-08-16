@@ -21,7 +21,6 @@ The very first thing I have in my `vimrc` is
 
 {% highlight viml %}
 set nocompatible             " be iMproved
-filetype on              
 filetype plugin on
 
 " Set utf8 as standard encoding 
