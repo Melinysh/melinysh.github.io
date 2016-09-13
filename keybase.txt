@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/melinysh
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://melinysh.me
+  * I am melinysh (https://keybase.io/melinysh) on keybase.
+  * I have a public key ASCEY6xJ91azVqCCIwLwlSyZYYJasOFZ0cw6fqdedVd_Fwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01208463ac49f756b356a0822302f0952c9961825ab0e159d1cc3a7ea75e75577f170a",
+            "host": "keybase.io",
+            "kid": "01208463ac49f756b356a0822302f0952c9961825ab0e159d1cc3a7ea75e75577f170a",
+            "uid": "125694760c28ddeea732a8877a747119",
+            "username": "melinysh"
+        },
+        "service": {
+            "hostname": "melinysh.me",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1473795321,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1473795266,
+        "hash": "a86eef30cccf331f864869ae258b2bb678ca225a517e42cd91c971b81340204b4708bc247324e1a428a54130f7feb2d80c889facd44c16b5eed5c9224b55883b",
+        "seqno": 634017
+    },
+    "prev": "975ed23dba1e4cb19ad3ff3d2cce74e111e5662e8a99ebb91812ae14e99e45a4",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEghGOsSfdWs1aggiMC8JUsmWGCWrDhWdHMOn6nXnVXfxcKp3BheWxvYWTFAvN7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwODQ2M2FjNDlmNzU2YjM1NmEwODIyMzAyZjA5NTJjOTk2MTgyNWFiMGUxNTlkMWNjM2E3ZWE3NWU3NTU3N2YxNzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwODQ2M2FjNDlmNzU2YjM1NmEwODIyMzAyZjA5NTJjOTk2MTgyNWFiMGUxNTlkMWNjM2E3ZWE3NWU3NTU3N2YxNzBhIiwidWlkIjoiMTI1Njk0NzYwYzI4ZGRlZWE3MzJhODg3N2E3NDcxMTkiLCJ1c2VybmFtZSI6Im1lbGlueXNoIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJtZWxpbnlzaC5tZSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE3In0sImN0aW1lIjoxNDczNzk1MzIxLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NzM3OTUyNjYsImhhc2giOiJhODZlZWYzMGNjY2YzMzFmODY0ODY5YWUyNThiMmJiNjc4Y2EyMjVhNTE3ZTQyY2Q5MWM5NzFiODEzNDAyMDRiNDcwOGJjMjQ3MzI0ZTFhNDI4YTU0MTMwZjdmZWIyZDgwYzg4OWZhY2Q0NGMxNmI1ZWVkNWM5MjI0YjU1ODgzYiIsInNlcW5vIjo2MzQwMTd9LCJwcmV2IjoiOTc1ZWQyM2RiYTFlNGNiMTlhZDNmZjNkMmNjZTc0ZTExMWU1NjYyZThhOTllYmI5MTgxMmFlMTRlOTllNDVhNCIsInNlcW5vIjo3LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQDOF16sxu13hKtVbwhXtoiXbfetpGxgUNplIdqI+7sOkRWrl9zeQ37lZXEmY8dfqLq1geBd1lDKl8R3jQRY41Aioc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCcsi0b+O1d4ogthqbi2sb4O7TZ9k4V0CwEpbFaaJ9+9qN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/melinysh
+
+==================================================================
+
