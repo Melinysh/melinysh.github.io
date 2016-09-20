@@ -24,7 +24,7 @@ This is my winning application for [Apple's 2016 WWDC Student Scholarship](https
 Chkmail 
 ======= 
 
-Winter 2016
+Winter 2015
 -------  
 
 Chkmail is a commandline Gmail client written in Go. As I've learned vim over the past year, I've become more accustomed to working in the terminal and I have wanted to move more of my daily workflow there as well. Chkmail allows me to check my email from the comfort of my terminal. I've built on top of Roi Martin's fantastic package, [gocui](https://github.com/jroimartin/gocui), to create a simple and easy-to-use UI. Chkmail is still under development with lots of future features I'd like to implement, given the time to do so. See Chkmail [here](https://github.com/Melinysh/Chkmail).
