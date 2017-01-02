@@ -200,6 +200,39 @@ func (d *Dir) Remove(ctx context.Context, req *fuse.RemoveRequest) error {
 
 Here we just filter out the name provided from the existing files and directories within the provided `Dir`. 
 
+### Starting the filesystem
+
+The last interface to implement is the [`FS`](https://github.com/bazil/fuse/blob/master/fs/serve.go#L38) interface on our `FS` struct. Again, just one key method. Here, we return the root `Dir`. 
+
+{% highlight Go %}
+func (f *FS) Root() (fs.Node, error) {
+	return f.root, nil
+}
+{% endhighlight %}
+
+To startup your new filesystem, you must first use FUSE to mount your mountpoint, then create a [`fs.Server`](https://github.com/bazil/fuse/blob/master/fs/serve.go#L363) that serves an instance of your filesystem. In this case, a `FS` instance.
+
+{% highlight Go %}
+c, err := fuse.Mount(mountpoint)
+if err != nil {
+	log.Fatal(err)
+}
+defer c.Close()
+if p := c.Protocol(); !p.HasInvalidate() {
+	log.Panicln("kernel FUSE support is too old to have invalidations: version %v", p)
+}
+srv := fs.New(c, nil)
+filesys := &FS{	&Dir{ /* ... */ } }
+if err := srv.Serve(filesys); err != nil {
+	log.Panicln(err)
+}
+// Check if the mount process has an error to report.
+<-c.Ready
+if err := c.MountError; err != nil {
+	log.Panicln(err)
+}
+{% endhighlight %}
+
 ---
 
 You can find the full sample project on my [Github](https://github.com/Melinysh/fuse-example). I implemented some more interfaces and added logging so I can see how my interactions with the filesystem translates into FUSE calls. You can find the GoDoc for Bazil's FUSE [here](https://godoc.org/bazil.org/fuse), but most of the interfaces mentioned above are documented in the [fs](https://godoc.org/bazil.org/fuse/fs) GoDoc.
