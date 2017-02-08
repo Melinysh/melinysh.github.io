@@ -5,6 +5,15 @@ permalink: /projects/
 ---
 Not everything that I am currently working on or have worked on is listed here.
 
+Fastify
+======
+
+Winter 2017
+-------
+
+Fastify is a download accelerator as a service. Everyday, millions of people download large files and Fastify provides a way to speed up the transfer. When users give a URL to the file they'd like to download, Fastify distributes the link to each server in the our EC2 cluster where the file is downloaded, and is then seeded as a BitTorrent while we return a `.torrent` file to the user. This `.torrent` file can be used in your favourite BitTorrent client to download your file much faster than a conventional download.
+In our tests Fastify was able to download a file 4x faster than a regular download. Fastify was written by [Daniel](http://prilik.ca) and I at [QHacks](http://qhacks.io) where it won the "Best Use Of AWS" prize! You can read more on [DevPost](https://devpost.com/software/fastify) and [Github](https://github.com/Melinysh/fastify).
+
 Nfinite.space
 ======
 
