@@ -1,3 +1,6 @@
 source 'https://rubygems.org'
+gem 'jekyll'
+gem 'colorator', '~> 0.1'
 gem 'jekyll-seo-tag'
-
+gem 'jekyll-redirect-from'
+gem 'jekyll-sitemap'

@@ -22,5 +22,8 @@ kramdown:
 # Gems to include
 gems:
       - jekyll-seo-tag
+      - jekyll-redirect-from
+      - jekyll-sitemap
+
 #redcarpet:
 # extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
