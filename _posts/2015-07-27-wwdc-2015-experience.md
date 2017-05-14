@@ -5,7 +5,7 @@ date: 2015-07-27
 categories: WWDC, Apple, Swift
 ---
 
-{% include image.html img="wwdc-2014-group.jpg" title="WWDC 2014 Group Photo" caption="Can you find me in this photo from WWDC 2014? Source: Apple" url="https://developer.apple.com/wwdc/scholarships/" %}
+{% include image.html img="wwdc-2014-group.jpg" title="WWDC 2014 Group Photo" caption="Can you find me in this photo from WWDC 2014? Source: Apple" %}
 
 I was extremely excited when I was awarded one of Apple's World Wide Developers Conference Student Scholarships in 2014, but I was even more elated when I was awarded the WWDC Student Scholarship in 2015. I left WWDC 2014 feeling like I could have learned more from the week, if I had managed my time and priorities better. The WWDC 2015 scholarship gave me another opportunity and I did not waste it. 
 
