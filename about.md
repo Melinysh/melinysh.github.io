@@ -15,5 +15,5 @@ If you'd like to contact me directly, email me at [stephen.melinyshyn@gmail.com]
 
 This is hosted by [GitHub Pages](https://pages.github.com) using [Jekyll](http://jekyllrb.com) with a modified version of the [Polar Bear](https://github.com/diezcami/polar-bear-theme/) theme.
 
-Not interested? Checkout a random classmate's [website](http://arashrai.com:5000/randomSEwebsite?omit=Stephen).
+Not interested? Check out a random classmate's [website](http://arashrai.com:5000/randomSEwebsite?omit=Stephen).
 
