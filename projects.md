@@ -5,6 +5,14 @@ permalink: /projects/
 ---
 Not everything that I am currently working on or have worked on is listed here.
 
+Dropboxfs
+======
+
+Winter 2018
+-------
+
+I've had an [interest in FUSE](https://melinysh.me/go,/fuse/2016/12/31/exploring-go-fuse.html) for a while now, but I hadn't felt the real need to create something useful with it until recently. I'm back at school and I find my work environments for school assignments are spread out over multiple devices, like my Mac, my iPad Pro, and the school's servers. I'd prefer to use a specific device depending on the situation, but I don't always have my most update copy of my work on there. Instead I started storing things on Dropbox, which made it easier to work across my Mac and iPad, yet not on the school servers. I first looked at a few existing solutions, like [ff4d](https://github.com/realriot/ff4d), but I had issues with how it performed. This is where I decided it would be a good use of my time building my own FUSE client for Dropbox. Thus, [dropboxfs](https://github.com/Melinysh/dropboxfs) was born. 
+
 Fastify
 ======
 
