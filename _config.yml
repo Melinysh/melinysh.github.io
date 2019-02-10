@@ -1,29 +1,31 @@
-# Site settings
-title: Stephen Melinyshyn
-email: stephen.melinyshyn@gmail.com 
-description: > # this means to ignore newlines until "baseurl:"
-   This is my personal site for my blog, information
-   about what I'm working on, and more. These are
-   things that are interesting to me and, possibly, to you.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://melinysh.me" # the base hostname & protocol for your site
-twitter_username: melinysh
-github_username: melinysh
-author: melinysh
+# general configuration
+url: http://melinysh.me
+baseurl: ''
 
-# Build settings
-markdown_ext:  markdown,mkdown,mkdn,mkd,md
+# compass configuration
+compass:
+  # an avatar or logo (optional)
+  #logo: "/images/compass.png"
+  # author will appear under the avatar (optional)
+  author: "Stephen Melinyshyn"
+  # tagline will appear under the title (optional)
+  tagline: "Software Engineering Student At The University of Waterloo"
+  # if include_content is true, the contents of the content.html include will be
+  # added right above the generated item list, if present
+  include_content: true
+  # if include_analytics is true, the content of the analytics.html include will
+  # be added at the end of the <head> section. You can add your Google Analytics
+  # Tracking Code to that file.
+  include_analytics: true 
+  # Twitter @username (as defined by the Twitter Card specs)
+  twitter: "melinysh"
+
+# exclude
+exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE"]
+
+# Dependencies
 markdown: kramdown
+highlighter: rouge
 
-kramdown:
-      input: GFM
-      syntax_highlighter: rouge
-
-# Gems to include
-gems:
-      - jekyll-seo-tag
-      - jekyll-redirect-from
-      - jekyll-sitemap
-
-#redcarpet:
-# extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
+# Permalinks
+permalink: pretty
