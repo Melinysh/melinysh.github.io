@@ -27,4 +27,25 @@
 
 <hr>
 
-<p>Not interested? Check out a random classmate's <a href="http://arashrai.com:5000/randomSEwebsite?omit=Stephen">website</a>.</p>
+<p>Not interested? Check out a random classmate's <a id="randomse" href="">website</a>.</p>
+<script type="text/javascript">
+  (function(){
+    const frens = [
+      "http://arashrai.com",
+      "https://melinysh.me",
+      "http://jameshageman.com",
+      "http://mattdsouza.com",
+      "http://hollyoegema.com",
+      "http://georgeutsin.com/",
+      "http://spencerdobrik.com/",
+      "http://www.ryan-martin.ca/",
+      "http://dentonliu.com/",
+      "http://stanhuan.com/",
+      "http://prilik.com/",
+      "http://kpeng.ca/",
+      "http://tnychka.me",
+    ];
+    document.getElementById("randomse").href = frens[(Math.random() * frens.length + 1)|0];
+  })();
+</script>
+
