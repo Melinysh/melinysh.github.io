@@ -32,7 +32,6 @@
   (function(){
     const frens = [
       "http://arashrai.com",
-      "https://melinysh.me",
       "http://jameshageman.com",
       "http://mattdsouza.com",
       "http://hollyoegema.com",
@@ -45,7 +44,7 @@
       "http://kpeng.ca/",
       "http://tnychka.me",
     ];
-    document.getElementById("randomse").href = frens[(Math.random() * frens.length + 1)|0];
+    document.getElementById("randomse").href = frens[Math.floor((Math.random() * frens.length))];
   })();
 </script>
 
