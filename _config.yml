@@ -9,7 +9,7 @@ compass:
   # author will appear under the avatar (optional)
   author: "Stephen Melinyshyn"
   # tagline will appear under the title (optional)
-  tagline: "Software Engineer at <a href='https://ramp.com'>Ramp</a>. University of Waterloo Software Engineering Alumnus."
+  tagline: "Staff Software Engineer at <a href='https://ramp.com'>Ramp</a>. University of Waterloo Software Engineering Graduate."
   # if include_content is true, the contents of the content.html include will be
   # added right above the generated item list, if present
   include_content: true
@@ -18,7 +18,7 @@ compass:
   # Tracking Code to that file.
   include_analytics: true
   # Twitter @username (as defined by the Twitter Card specs)
-  twitter: "melinysh"
+  # twitter: "melinysh"
 
 # exclude
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE"]
